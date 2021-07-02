@@ -1,4 +1,4 @@
-package controller.dto;
+package by.app.freeITspringApp.controller.dto;
 
 public class BookDto {
 

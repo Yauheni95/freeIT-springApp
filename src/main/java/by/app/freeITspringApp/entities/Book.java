@@ -1,14 +1,14 @@
-package entities;
+package by.app.freeITspringApp.entities;
 
 import javax.persistence.*;
 
 @Entity
 @Table(name = "books")
-public class Book {
+public class Book  {
 
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
 
     private String title;
@@ -19,7 +19,7 @@ public class Book {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
